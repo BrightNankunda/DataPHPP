@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    max-width: 100vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 90vw;
+    margin: 0 auto;
+    justify-content: center;
+}
+.header {
+    display: flex;
+    max-width: 100vw;
+    color: rgb(236, 17, 17);
+    justify-content: center;
+    border-bottom: 2px solid red;
+}
+label {
+    display: block;
+    justify-content: center;
+}
+.form, .form-group {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.form-control {
+    border: 2px solid gray;
+    height: 20px;
+    min-width: 300px;
+    border-radius: 4px;
+}
+.text-form-control {
+    border: 2px solid gray;
+    min-width: 300px;
+    border-radius: 4px;
+}
+.empty {
+    color: red;
+}
+.record-email, .record-name, .record-address, th, td {
+    color: green;
+    border: 1px solid green;
+    border-radius: 3px;
+}
+.record-email,
+.record-name,
+.record-address {
+    max-width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.deleted {
+    border: 2px solid red;
+    border-radius: 6px;
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+.record-container {
+    margin-top: 20px;
+}
